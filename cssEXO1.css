@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto , sans-serif;
+}
+.CORPS{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background:#E0FFFF;
+ }
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+    height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.detel{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #686F8C;
+}
+span{
+    color: orange;
+}
+.detel p{
+    color: #979073;
+    line-height: 25px;
+}
+.detel a{
+    background: #739790;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.detel a:hover{
+    color: orangered;
+}
+.image{
+    left: 75%;
+    position: absolute;
+    width: 50px;
+    height: 90%;
+    bottom: 40%;
+}
+.image img{
+    height:     300px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .orange{
+    bottom: 30px;
+}
+.image:hover .code{
+   left: 60%;
+   padding: 50%;
+}
+.youtube{
+    margin-left: 5%;
+    margin-top: 0%;
+    border-radius: 10px;
+    
+}
+.icones {
+    margin-left: 5%;
+    margin-top: 0%;
+ }
+.icones a{
+    font-size: 30px;
+    margin-left: 2%;
+    color: #34495E ;
+}
+.icones a:hover{
+    color: indianred;
+}
+audio{
+    font-size: 20px;
+    margin-left: 5%;
+    background-color: #34495E;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+footer{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 15px;
+}
+.email a{
+    background: #3498DB ;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 15px 0;
+    
+}
+.email a:hover{ color: orangered;}
